@@ -1,0 +1,45 @@
+body{
+    background-image:url(/space.gif);
+    background-repeat: no-repeat;
+    background-size: 1980px;
+}
+
+#hora{
+    color: white;
+    font-size: 100px;
+}
+
+#minuto{
+color: white;
+font-size: 100px;
+}
+
+#segundos{
+    color:white;
+    font-size: 100px;
+}
+
+.tempo{
+    color:white;
+    font-size: 100px;
+}
+
+.relogio{
+    display: flex;
+    flex-direction: row;
+    gap: 2px;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+.data{
+    display: flex;
+    flex-direction: row;
+    gap: 2px;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 100px;
+    color: white;
+}
